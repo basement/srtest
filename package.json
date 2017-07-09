@@ -1,0 +1,23 @@
+{
+  "name": "@basement/srtest",
+  "version": "0.0.0-development",
+  "description": "sematic release test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/basement/srtest.git"
+  },
+  "author": "lokesh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/basement/srtest/issues"
+  },
+  "homepage": "https://github.com/basement/srtest#readme",
+  "devDependencies": {
+    "semantic-release": "^6.3.6"
+  }
+}
