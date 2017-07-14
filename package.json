@@ -1,6 +1,6 @@
 {
   "name": "@basement/srtest",
-  "version": "1.0.5",
+  "version": "10.0.1",
   "description": "sematic release test",
   "main": "index.js",
   "scripts": {
@@ -44,6 +44,7 @@
     "@angular/language-service": "^4.0.0",
     "@types/jasmine": "2.5.45",
     "@types/node": "~6.0.60",
+    "bump-version": "^0.5.0",
     "codelyzer": "~3.0.1",
     "jasmine-core": "~2.6.2",
     "jasmine-spec-reporter": "~4.1.0",
@@ -55,11 +56,12 @@
     "karma-jasmine-html-reporter": "^0.2.2",
     "protractor": "~5.1.2",
     "semantic-release": "^6.3.6",
+    "sr-bump-file": "^1.0.0",
     "ts-node": "~3.0.4",
     "tslint": "~5.3.2",
     "typescript": "~2.3.3"
   },
   "release": {
-    "tryme": "./node_modules/foobar"
+    "verifyConditions": "./node_modules/sr-bump-file"
   }
 }
