@@ -1,3 +1,13 @@
+<a name="1.0.2"></a>
+## [1.0.2](https://github.com/basement/srtest/compare/v1.0.1...v1.0.2) (2017-07-14)
+
+
+### Bug Fixes
+
+* **karma:** Autowatch set to false ([d3d9547](https://github.com/basement/srtest/commit/d3d9547))
+
+
+
 <a name="1.0.1"></a>
 ## [1.0.1](https://github.com/basement/srtest/compare/v1.0.0...v1.0.1) (2017-07-14)
 
