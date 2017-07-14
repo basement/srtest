@@ -1,0 +1,10 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+  "typescript.extension.sortImports.pathSortOrder": [
+    "package",
+    "relativeUpLevel",
+    "relativeDownLevel"
+  ],
+  "typescript.extension.sortImports.sortMethod": "path",
+  "typescript.extension.sortImports.sortOnSave": false
+}

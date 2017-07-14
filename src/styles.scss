@@ -1,0 +1,29 @@
+@import '~prismjs/themes/prism.css';
+body {
+    font-family: 'Varela Round', sans-serif;
+    color: #50555a;
+}
+
+h1 {
+    font-size: 15px;
+    text-transform: uppercase;
+    margin: 20px;
+}
+
+code[class*="language-"],
+pre[class*="language-"] {
+    font-family: 'Inconsolata', monospace;
+    font-size: 14px;
+    padding: 0;
+    border: 0;
+}
+
+pre[class*="language-"] {
+    background: transparent;
+}
+
+.code-holder {
+    border-top: 1px solid #eaecef;
+    border-bottom: 1px solid #eaecef;
+    background: rgba(234, 236, 239, 0.17);
+}

@@ -1,0 +1,21 @@
+<div class="container">
+  <h1>Installation</h1>
+</div>
+
+<form [formGroup]="basic" #foo>
+  <div class="form-group fancy-input">
+    <label for="name">Name</label>
+    <div class="input-group">
+      <input type="text" placeholder="username" class="form-control" formControlName="name" [fancyInput]="{tplRef:foo}">
+    </div>
+  </div>
+</form>
+
+<form [formGroup]="basic" #foob class="me">
+  <div class="form-group fancy-input">
+    <label for="name">Address</label>
+    <div class="input-group">
+      <input type="text" placeholder="username" class="form-control" formControlName="address" [fancyInput]="{selector:'.me'}">
+    </div>
+  </div>
+</form>
