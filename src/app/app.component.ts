@@ -41,7 +41,7 @@ export class AppComponent {
     this._renderer.appendChild(this.preNode, this.codeNode);
     this.codeNode.textContent = this.getCode();
     const foo = Prism.highlightElement(this.codeNode);
-    console.log('foo', foo);
+    // console.log('foo', foo);
   }
 
   getCode() {

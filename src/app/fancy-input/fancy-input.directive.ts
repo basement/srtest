@@ -75,7 +75,6 @@ export class FancyInputDirective implements OnInit {
 
   ngOnInit() {
     this.localconfig = { ...this.config, ...FancyInputDirective.globalconfig, ...this.fancyInput };
-    console.log('locccalconfig', this.localconfig);
     if (this.localconfig.selector) {
       this.el = this.match(this.eRef.nativeElement, this.localconfig.selector)
     } else if (this.localconfig.tplRef) {
@@ -158,6 +157,5 @@ export class FancyInputDirective implements OnInit {
     ];
     this.el.classList.remove(...all);
     this.el.classList.add(...data);
-    console.log('validate--->', this.el.tagName);
   }
 }
