@@ -1,3 +1,13 @@
+<a name="1.0.1"></a>
+## [1.0.1](https://github.com/basement/srtest/compare/v1.0.0...v1.0.1) (2017-07-14)
+
+
+### Bug Fixes
+
+* **module:** Added comment to update ([43a145c](https://github.com/basement/srtest/commit/43a145c))
+
+
+
 <a name="1.0.0"></a>
 # 1.0.0 (2017-07-14)
 
