@@ -1,3 +1,13 @@
+<a name="1.0.4"></a>
+## [1.0.4](https://github.com/basement/srtest/compare/v1.0.3...v1.0.4) (2017-07-14)
+
+
+### Bug Fixes
+
+* **Karma Config:** Removed travis ([165cbfb](https://github.com/basement/srtest/commit/165cbfb))
+
+
+
 <a name="1.0.3"></a>
 ## [1.0.3](https://github.com/basement/srtest/compare/v1.0.2...v1.0.3) (2017-07-14)
 
